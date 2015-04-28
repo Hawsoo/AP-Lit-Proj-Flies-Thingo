@@ -21,6 +21,13 @@ ModelImporter:
     100026: Mountains_MeshPart2
     100028: Mountains_MeshPart3
     100030: Plane
+    100032: Main_Island
+    100034: Main_Island_MeshPart0
+    100036: Main_Island_MeshPart1
+    100038: Main_Island_MeshPart2
+    100040: Main_Island_MeshPart3
+    100042: Main_Island_MeshPart4
+    100044: Main_Island_MeshPart5
     400000: //RootNode
     400002: Plane_MeshPart0
     400004: Plane_MeshPart1
@@ -37,6 +44,13 @@ ModelImporter:
     400026: Mountains_MeshPart2
     400028: Mountains_MeshPart3
     400030: Plane
+    400032: Main_Island
+    400034: Main_Island_MeshPart0
+    400036: Main_Island_MeshPart1
+    400038: Main_Island_MeshPart2
+    400040: Main_Island_MeshPart3
+    400042: Main_Island_MeshPart4
+    400044: Main_Island_MeshPart5
     2300000: //RootNode
     2300002: Plane_MeshPart0
     2300004: Plane_MeshPart1
@@ -51,6 +65,12 @@ ModelImporter:
     2300022: Mountains_MeshPart2
     2300024: Mountains_MeshPart3
     2300026: Plane
+    2300028: Main_Island_MeshPart0
+    2300030: Main_Island_MeshPart1
+    2300032: Main_Island_MeshPart2
+    2300034: Main_Island_MeshPart3
+    2300036: Main_Island_MeshPart4
+    2300038: Main_Island_MeshPart5
     3300000: //RootNode
     3300002: Plane_MeshPart0
     3300004: Plane_MeshPart1
@@ -65,6 +85,12 @@ ModelImporter:
     3300022: Mountains_MeshPart2
     3300024: Mountains_MeshPart3
     3300026: Plane
+    3300028: Main_Island_MeshPart0
+    3300030: Main_Island_MeshPart1
+    3300032: Main_Island_MeshPart2
+    3300034: Main_Island_MeshPart3
+    3300036: Main_Island_MeshPart4
+    3300038: Main_Island_MeshPart5
     4300000: Cube
     4300002: Plane_MeshPart0
     4300004: Plane_MeshPart1
@@ -79,6 +105,12 @@ ModelImporter:
     4300022: Mountains_MeshPart2
     4300024: Mountains_MeshPart3
     4300026: Plane
+    4300028: Main_Island_MeshPart0
+    4300030: Main_Island_MeshPart1
+    4300032: Main_Island_MeshPart2
+    4300034: Main_Island_MeshPart3
+    4300036: Main_Island_MeshPart4
+    4300038: Main_Island_MeshPart5
     7400000: Default Take
     9500000: //RootNode
   materials:
