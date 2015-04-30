@@ -37,6 +37,13 @@ public class ControlsCamera : MonoBehaviour
             
             // Apply zoom
             transform.localScale += new Vector3(delta, delta, delta) * Time.deltaTime;
+
+            // Stop zoom if too much
+            if (Mathf.Abs(transform.localScale.x - targetZoom) < 0.01f)
+            {
+                keepZooming = false;
+                transform.localScale = new Vector3(targetZoom, targetZoom, targetZoom);
+            }
         }
     }
 }
