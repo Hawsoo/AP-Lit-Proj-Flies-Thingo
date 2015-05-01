@@ -10,11 +10,13 @@ public class ControlsCamera : MonoBehaviour
     private float targetZoom = 1;
     private float zoomFactor = 2;
 
+    private float rotateFactor = 7.5f;
+
     // Init
     void Start()
     {
         // Init
-        origZoom = transform.localScale.x - 0.05f;      // Assumed local scale is same coords
+        origZoom = transform.localScale.x;      // Assumed local scale is same coords
 
         // Completely zoom out if wanted to skip
         if (skipZoomOut)
@@ -31,7 +33,7 @@ public class ControlsCamera : MonoBehaviour
         if (keepZooming)
         {
             // Calculate delta zoom
-            float deltaFromOrig = (transform.localScale.x - origZoom) * zoomFactor;
+            float deltaFromOrig = Mathf.Max((transform.localScale.x - origZoom) * zoomFactor, 0.05f);
             float deltaToTarget = (targetZoom - transform.localScale.x) * zoomFactor;
             float delta = Mathf.Min(deltaFromOrig, deltaToTarget);
             
@@ -41,9 +43,12 @@ public class ControlsCamera : MonoBehaviour
             // Stop zoom if too much
             if (Mathf.Abs(transform.localScale.x - targetZoom) < 0.01f)
             {
+                // Turn off zooming out
                 keepZooming = false;
-                transform.localScale = new Vector3(targetZoom, targetZoom, targetZoom);
             }
         }
+
+        // Rotate
+        transform.Rotate(new Vector3(0, rotateFactor) * Time.deltaTime);
     }
 }

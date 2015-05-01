@@ -26,6 +26,9 @@ ModelImporter:
     100036: Mountains_MeshPart1
     100038: Mountains_MeshPart2
     100040: Mountains_MeshPart3
+    100042: Wood_Planks
+    100044: Ocean
+    100046: Plane
     400000: Castle_Rock
     400002: Castle_Rock_MeshPart0
     400004: Castle_Rock_MeshPart1
@@ -47,6 +50,9 @@ ModelImporter:
     400036: Mountains_MeshPart1
     400038: Mountains_MeshPart2
     400040: Mountains_MeshPart3
+    400042: Wood_Planks
+    400044: Ocean
+    400046: Plane
     2300000: Castle_Rock_MeshPart0
     2300002: Castle_Rock_MeshPart1
     2300004: Castle_Rock_MeshPart2
@@ -65,6 +71,10 @@ ModelImporter:
     2300030: Mountains_MeshPart2
     2300032: Mountains_MeshPart3
     2300034: Main_Island
+    2300036: Castle_Rock
+    2300038: Wood_Planks
+    2300040: Ocean
+    2300042: Plane
     3300000: Castle_Rock_MeshPart0
     3300002: Castle_Rock_MeshPart1
     3300004: Castle_Rock_MeshPart2
@@ -83,6 +93,10 @@ ModelImporter:
     3300030: Mountains_MeshPart2
     3300032: Mountains_MeshPart3
     3300034: Main_Island
+    3300036: Castle_Rock
+    3300038: Wood_Planks
+    3300040: Ocean
+    3300042: Plane
     4300000: Main_Island_MeshPart0
     4300002: Main_Island_MeshPart1
     4300004: Main_Island_MeshPart2
@@ -101,6 +115,10 @@ ModelImporter:
     4300030: Mountains_MeshPart2
     4300032: Mountains_MeshPart3
     4300034: Main_Island
+    4300036: Castle_Rock
+    4300038: Wood_Planks
+    4300040: Ocean
+    4300042: Plane
     7400000: Default Take
     9500000: //RootNode
   materials:
